@@ -18,7 +18,7 @@ app.use(
 );
 
 
-app.use(cors({ origin: "https://snapbasket.netlify.app", credentials: true }));
+app.use(cors());
 app.use(express.json());
 connectDB(Constants.DB_URI); 
 
